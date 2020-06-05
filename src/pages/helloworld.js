@@ -1,10 +1,10 @@
-export default () =>{
+import React from 'react';
 
-    const t = () => "jing zhi";
-    return (
-        <div>
-            <div>Hello</div>
-            <div>World {t()}</div>
-        </div>
-    );
+class HelloWorld extends React.Component {
+
+    render(){
+        return <div>我的第一个reactjs组件</div>;
+    };
 }
+
+export default HelloWorld;

@@ -7,6 +7,11 @@ const routes = [
     "path": "/helloworld",
     "exact": true,
     "component": require('@/pages/helloworld.js').default
+  },
+  {
+    "path": "/show",
+    "exact": true,
+    "component": require('@/pages/show.js').default
   }
 ];
 
