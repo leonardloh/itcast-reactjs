@@ -9,6 +9,11 @@ const routes = [
     "component": require('@/pages/helloworld.js').default
   },
   {
+    "path": "/Lists",
+    "exact": true,
+    "component": require('@/pages/Lists.js').default
+  },
+  {
     "path": "/show",
     "exact": true,
     "component": require('@/pages/show.js').default
