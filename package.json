@@ -1,0 +1,12 @@
+{
+  "name": "itcast-reactjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/leonardloh/itcast-reactjs",
+  "author": "Loh Jing Zhi <jingzhi.loh@skymind.my>",
+  "license": "MIT",
+  "devDependencies": {
+    "umi": "^3.2.3",
+    "@umijs/preset-react": "^1.2.2"
+  }
+}
