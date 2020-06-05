@@ -4,7 +4,7 @@ import HelloWorld from './helloworld.js';
 class Show extends React.Component{
     render(){
         return (
-            <HelloWorld></HelloWorld>
+            <HelloWorld name="张三">传智播客</HelloWorld>
         );
     }
 }
