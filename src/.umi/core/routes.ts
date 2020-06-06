@@ -4,24 +4,30 @@ import { plugin } from './plugin';
 
 const routes = [
   {
-    "path": "/helloworld",
-    "exact": true,
-    "component": require('@/pages/helloworld.js').default
-  },
-  {
-    "path": "/Lists",
-    "exact": true,
-    "component": require('@/pages/Lists.js').default
-  },
-  {
-    "path": "/MyTabs",
-    "exact": true,
-    "component": require('@/pages/MyTabs.js').default
-  },
-  {
-    "path": "/show",
-    "exact": true,
-    "component": require('@/pages/show.js').default
+    "path": "/",
+    "component": require('@/layouts/index.js').default,
+    "routes": [
+      {
+        "path": "/helloworld",
+        "exact": true,
+        "component": require('@/pages/helloworld.js').default
+      },
+      {
+        "path": "/Lists",
+        "exact": true,
+        "component": require('@/pages/Lists.js').default
+      },
+      {
+        "path": "/MyTabs",
+        "exact": true,
+        "component": require('@/pages/MyTabs.js').default
+      },
+      {
+        "path": "/show",
+        "exact": true,
+        "component": require('@/pages/show.js').default
+      }
+    ]
   }
 ];
 
