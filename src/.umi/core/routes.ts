@@ -14,6 +14,11 @@ const routes = [
     "component": require('@/pages/Lists.js').default
   },
   {
+    "path": "/MyTabs",
+    "exact": true,
+    "component": require('@/pages/MyTabs.js').default
+  },
+  {
     "path": "/show",
     "exact": true,
     "component": require('@/pages/show.js').default
