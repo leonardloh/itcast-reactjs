@@ -8,5 +8,8 @@
   "devDependencies": {
     "umi": "^3.2.3",
     "@umijs/preset-react": "^1.2.2"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.2.1"
   }
 }
