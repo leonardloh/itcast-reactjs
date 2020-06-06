@@ -26,6 +26,16 @@ const routes = [
         "path": "/show",
         "exact": true,
         "component": require('@/pages/show.js').default
+      },
+      {
+        "path": "/user/UserAdd",
+        "exact": true,
+        "component": require('@/pages/user/UserAdd.js').default
+      },
+      {
+        "path": "/user/UserList",
+        "exact": true,
+        "component": require('@/pages/user/UserList.js').default
       }
     ]
   }

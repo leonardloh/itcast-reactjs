@@ -29,6 +29,7 @@ export function _onCreate(options = {}) {
     app.use(plugin);
   });
   app.model({ namespace: 'ListData', ...(require('D:/Repos/itcast-reactjs/src/models/ListData.js').default) });
+app.model({ namespace: 'UserListData', ...(require('D:/Repos/itcast-reactjs/src/models/UserListData.js').default) });
   return app;
 }
 
