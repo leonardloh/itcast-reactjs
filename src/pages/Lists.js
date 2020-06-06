@@ -19,10 +19,22 @@ const namespace = "list";
             dispatch({ //通过dispatch调用model中定义的函数，通过type属性，指定函数命名，格式; namespace + "/函数名字"
                 type: namespace + "/addNewData"
             });
+        },
+
+        init : () => {
+            dispatch({
+                type: namespace + "/initData"
+            });
         }
     }
 })
 class List extends React.Component {
+    
+    componentDidMount(){
+        //初始化的操作
+        this.props.init();
+
+    }
 
     constructor(props){
         super(props);
